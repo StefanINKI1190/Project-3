@@ -1,0 +1,46 @@
+.all-middle-section-2 {
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+}
+
+.all-middle-section-2 .in-section {
+    display: grid;
+    justify-content: center;
+}
+
+.all-middle-section-2 .content {
+    display: grid;
+    text-align: center;
+    place-content: center;
+    max-width: 50em;
+    height: 15em;
+}
+
+.all-middle-section-2 .header {
+    padding: .5em;
+}
+
+.all-middle-section-2 .paragraph {
+    padding: 1em;
+}
+
+.all-middle-section-2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../../Pictures/priroda2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.all-middle-section-2 .header {
+    font-weight: 500;
+    font-size: 2em;
+    color: white;
+}
+
+.all-middle-section-2 .paragraph {
+    font-size: 1em;
+    color: white;
+}
